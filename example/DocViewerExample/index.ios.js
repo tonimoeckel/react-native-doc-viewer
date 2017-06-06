@@ -19,7 +19,7 @@ var SavePath = Platform.OS === 'ios' ? RNFS.MainBundlePath : RNFS.DocumentDirect
 export default class DocViewerExample extends Component {
   handlePress = () => {
    OpenFile.openDoc([{
-     url:"http://mail.hartl-haus.at/uploads/tx_hhhouses/htf13_classic153s(3_giebel_haus).jpg",
+     url:"https://facebook.github.io/react-native/releases/next/img/react-native-congratulations.png",
      fileName:"sample"
    }], (error, url) => {
       if (error) {
